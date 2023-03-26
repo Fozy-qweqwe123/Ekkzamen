@@ -14,7 +14,7 @@
       </div>
       <div class="pass" @click="forgotPassword()">Forgot Password?</div>
       <button   type="submit" value="Login" > <router-link to="/post">Login</router-link>  </button>
-      <div class="signup_link">Not a member? <router-link to="/post">Signup</router-link></div>
+      <div class="signup_link">Not a mmember? <router-link to="/post">Signup</router-link></div>
     </form>
   </div>
 </template>
