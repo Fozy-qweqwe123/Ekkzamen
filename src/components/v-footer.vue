@@ -28,7 +28,7 @@
   
   <style>
   footer {
-    position: fixed;
+  
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
