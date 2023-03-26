@@ -4,7 +4,7 @@
             <div class="header-line">
 
                 <div class="header-logo">
-                    <a href="#/Home"></a>
+                    <a class="nav-item" href="#post">My Social Network</a>
                 </div>
 
                 <div class="nav">
@@ -13,20 +13,11 @@
                     <a class="nav-item" href="">Друзья</a>
                     <a class="nav-item" href="#/Reviews">Сообщения</a>
                     <a class="nav-item" href="https://github.com/Fozy-qweqwe123/Ekkzamen.git">GitHub</a>
+                    <a class="nav-item" href="#/components/UserInfo.vue" >Rubik Agamiryan</a>
                    
                 </div>
 
-                <div class='phone'> 
-                    <div class='phone-holder'>
-                        <div class='phone-img'>
-                          
-                        </div>
-
-                        <div class='number'>
-                           
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -47,7 +38,7 @@
 
 <style>
     .vHeader {
-        background-color: #262626;
+        background-color: #0069d9;
     }
     .container {
         margin: 0px 120px;
@@ -68,7 +59,7 @@
         transition: color 0.2s linear;
     }
     .nav-item:hover {
-        color: orange;
+        color: rgb(0, 0, 0);
     }
     .phone-holder {
         display: flex;
@@ -85,4 +76,5 @@
     .num:hover {
         color:orange;
     }
+  
 </style>

@@ -20,7 +20,7 @@
         </button>
       </div>
       <div class="comments">
-        <h4>Comments</h4>
+        <h4>Комментарии</h4>
         <ul>
           <li v-for="comment in post.comments" :key="comment.id">
             <div class="comment-info">
@@ -48,7 +48,7 @@ export default {
           id: 1,
           author: "Иван Устинов",
           avatar: "https://via.placeholder.com/50",
-          timestamp: "2 hours ago",
+          timestamp: "2 часа назад",
           content: "Сегодня была прекрасная погода",
           image: "https://via.placeholder.com/800x400",
           likes: 10,
@@ -57,7 +57,7 @@ export default {
             {
               id: 1,
               author: "Егор Пахарев",
-              timestamp: "1 hour ago",
+              timestamp: "1 часа назад",
               content: "прекрасное фото!"
             }
           ]
@@ -66,7 +66,7 @@ export default {
           id: 2,
           author: "Тимофей Сенин",
           avatar: "https://via.placeholder.com/50",
-          timestamp: "4 hours ago",
+          timestamp: "4 часа назад",
           content: "Вот бы там побывать.",
           image: null,
           likes: 5,
@@ -88,7 +88,7 @@ export default {
       post.comments.push({
         id: post.comments.length + 1,
         author: "You",
-        timestamp: "just now",
+        timestamp: " сейчас",
         content: this.commentText
       });
       this.commentText = "";
