@@ -1,4 +1,5 @@
 <template>
+  <body>
 <div class="center">
     <h1>Login</h1>
     <form>
@@ -17,6 +18,7 @@
       <div class="signup_link">Not a mmember? <router-link to="/post">Signup</router-link></div>
     </form>
   </div>
+  </body>
 </template>
 
 <script>
