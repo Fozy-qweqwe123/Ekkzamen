@@ -3,6 +3,7 @@
       <VHeader v-if="showHeader"> </VHeader>
      <RouterView></RouterView>
       <Vfooter></Vfooter>
+     
     </div>    
   </template>
 
@@ -23,6 +24,7 @@ return {
   components: {
      Vfooter,
     VHeader,
+   
 }
 }
 </script>

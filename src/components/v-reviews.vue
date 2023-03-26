@@ -1,4 +1,5 @@
 <template>
+    <h1>Сообщения</h1>
   <div class="vReviews">
     <div class="container-review">
         <img src="@/assets/avatarexample.jpg" alt="Avatar" style="width:90px">
