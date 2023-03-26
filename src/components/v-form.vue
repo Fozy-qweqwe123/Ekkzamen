@@ -53,6 +53,7 @@ body  {
   padding: 0;
   font-family: Montserrat;
   background: linear-gradient(120deg, #2980b9, #8e44ad);
+
   height: 100vh;
   overflow: hidden;
 }
