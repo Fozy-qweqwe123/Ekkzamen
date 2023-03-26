@@ -15,7 +15,7 @@
           <ul>
             <li v-for="comment in post.comments" :key="comment.id">
               <p>{{ comment.content }}</p>
-              <button @click="likeComment(post, comment)">Лайкнуть</button>
+              <button @click="likeComment(post, comment)">Лайaкнуть</button>
             </li>
           </ul>
         </div>

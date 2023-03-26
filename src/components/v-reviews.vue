@@ -33,7 +33,7 @@
     <div class="container-review">
         <img src="@/assets/avatarexample.jpg" alt="Avatar" style="width:90px">
         <p><span>Имя пользователя.</span> </p>
-        <p>Lorem ipsums dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
     </div>
   </div>
 </template>

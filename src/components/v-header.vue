@@ -12,7 +12,7 @@
                     <a class="nav-item" href="">Группы</a>
                     <a class="nav-item" href="">Друзья</a>
                     <a class="nav-item" href="#/Reviews">Сообщения</a>
-                    <a class="nav-item" href="https://github.com/CLoudXVII/Cleansy_vueproject">GitHub</a>
+                    <a class="nav-item" href="https://github.com/Fozy-qweqwe123/Ekkzamen.git">GitHub</a>
                    
                 </div>
 
