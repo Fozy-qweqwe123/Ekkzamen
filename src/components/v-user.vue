@@ -1,5 +1,5 @@
 <template>
-  <header>
+ <header>
 
 <div class="container">
 
@@ -7,7 +7,8 @@
 
     <div class="profile-image">
 
-      <img src="https://cdn-icons-png.flaticon.com/512/4837/4837857.png" alt="">
+      <img src="https://w7.pngwing.com/pngs/415/765/png-transparent-user-profile-linkedin-netwerk-money-order-fulfillment-round-face-saving-expert-moustache.png" alt="" style="width: 300px
+      ;">
 
     </div>
 
@@ -15,7 +16,7 @@
 
       <h1 class="profile-user-name">Rubik Agamiryan</h1>
 
-      <button class="btn profile-edit-btn">Редактировать профиль</button>
+      <button class="btn profile-edit-btn">Изменить профиль</button>
 
       <button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
 
@@ -24,23 +25,24 @@
     <div class="profile-stats">
 
       <ul>
-        <li><span class="profile-stat-count">164</span> друга</li>
-        <li><span class="profile-stat-count">188</span> подписчиков</li>
-        <li><span class="profile-stat-count">206</span> подписок</li>
+        <li><span class="profile-stat-count">164</span> друзей</li>
+        <li><span class="profile-stat-count">188</span> Подписчиков</li>
+        <li><span class="profile-stat-count">206</span> Подписок</li>
       </ul>
 
     </div>
 
     <div class="profile-bio">
 
-      <p><span class="profile-real-name"></span>студент лучшего вуза в стране </p>
+      <p><span class="profile-real-name">Rubik Agamiryan-</span>Студент лучшего вуза страны</p>
 
     </div>
 
   </div>
-
+  
 
 </div>
+
 
 </header>
 
@@ -79,11 +81,52 @@
       </div>
 
     </div>
-  </div>
-  </div>
 
+
+</div>
+</div>
 
 </main>
+
+<div class="container">
+
+  <div class="gallery">
+ 
+
+    <div class="gallery-item" tabindex="0">
+
+      <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image" alt="">
+
+      <div class="gallery-item-info">
+
+        <ul>
+          <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+          <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="gallery-item" tabindex="0">
+
+      <img src="https://images.unsplash.com/photo-1497445462247-4330a224fdb1?w=500&h=500&fit=crop" class="gallery-image" alt="">
+
+      <div class="gallery-item-info">
+
+        <ul>
+          <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 89</li>
+          <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 5</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
 </template>
 
 <script>
@@ -155,7 +198,7 @@ img {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* Profile Section */
+
 
 .profile {
     padding: 5rem 0;
@@ -396,7 +439,7 @@ img {
     }
 }
 
-/* Spinner Animation */
+
 
 @keyframes loader {
     to {
@@ -404,13 +447,6 @@ img {
     }
 }
 
-/*
-
-The following code will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
-
-*/
 
 @supports (display: grid) {
     .profile {
