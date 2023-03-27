@@ -3,14 +3,14 @@
       <VHeader v-if="showHeader"> </VHeader>
      <RouterView></RouterView>
       <Vfooter></Vfooter>
-     
+    
     </div>    
   </template>
 
 <script>
 
 import Vfooter from './components/v-footer.vue';
-import VHeader from './components/v-header.vue'
+import VHeader from './components/v-header.vue';
 
 export default {
   name: 'App',
@@ -24,7 +24,7 @@ return {
   components: {
      Vfooter,
     VHeader,
-   
+ 
 }
 }
 </script>

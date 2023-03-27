@@ -37,7 +37,7 @@
   }
   
   main {
-    padding-bottom: 80px; /* Высота футера + отступ */
+    padding-bottom: 90px; /* Высота футера + отступ */
   }
   
   .footer-menu {

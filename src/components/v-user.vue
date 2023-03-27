@@ -1,41 +1,54 @@
 <template>
-    <div class="user-info">
-      <img :src="user.avatar" :alt="`${user.first_name} ${user.last_name}`" class="avatar" />
-      <h2 class="name">{{ user.first_name }} {{ user.last_name }}</h2>
-      <p class="status">{{ user.status }}</p>
-      <div class="friends">
-        <h3>Друзья</h3>
-        <ul>
-          <li v-for="friend in user.friends" :key="friend.id">{{ friend.name }}</li>
-        </ul>
-      </div>
-      <div class="groups">
-        <h3>Группы</h3>
-        <ul>
-          <li v-for="group in user.groups" :key="group.id">{{ group.name }}</li>
-        </ul>
+  <div class="user-profile">
+    <div class="avatar">
+      <img :src="user.avatar" alt="User Avatar" />
+    </div>
+    <div class="info">
+      <h3>{{ user.name }} {{ user.surname }}</h3>
+      <p>{{ user.status }}</p>
+      <button @click="editing = true">Edit Status</button>
+      <div v-if="editing" class="status-edit">
+        <input type="text" v-model="user.status" />
+        <button @click="editing = false">Save</button>
       </div>
     </div>
-  </template>
+  </div>
+</template>
+
+<script>
+export default {
   
-  <script>
-  export default {
-    name: "UserInfo",
-    props: {
-      user: {
-        type: Object,
-        required: true,
+  data() {
+    return {
+      editing: false,
+      currentUser: {
+        name: "John",
+        surname: "Doe",
+        avatar: "/path/to/avatar.jpg",
+        status: "Online",
       },
-    },
-  };
-  </script>
-  
-  <style scoped>
-  .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  </style>
-  
+    };
+  },
+};
+</script>
+
+<style scoped>
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-edit {
+  margin-top: 10px;
+}
+</style>

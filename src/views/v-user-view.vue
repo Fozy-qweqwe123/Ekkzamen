@@ -1,5 +1,5 @@
 <template>
-    <v-user />
+    <vUser />
 </template>
 
 <script>

@@ -88,7 +88,7 @@ export default {
       post.comments.push({
         id: post.comments.length + 1,
         author: "You",
-        timestamp: " сейчас",
+        timestamp: "Прямо сейчас",
         content: this.commentText
       });
       this.commentText = "";

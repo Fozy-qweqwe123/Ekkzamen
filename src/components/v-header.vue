@@ -61,10 +61,8 @@
     .nav-item:hover {
         color: rgb(0, 0, 0);
     }
-    .phone-holder {
-        display: flex;
-        align-items: center;
-    }
+
+    
     .num {
         color: #fff;
         text-decoration: none;
