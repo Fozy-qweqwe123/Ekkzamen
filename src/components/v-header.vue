@@ -11,9 +11,9 @@
                     <a class="nav-item" href="#/post">Новости </a>
                     <a class="nav-item" href="">Группы</a>
                     <a class="nav-item" href="">Друзья</a>
-                    <a class="nav-item" href="#/Reviews">Сообщения</a>
+                    <a class="nav-item" href="#/Messages">Сообщения</a>
                     <a class="nav-item" href="https://github.com/Fozy-qweqwe123/Ekkzamen.git">GitHub</a>
-                    <a class="nav-item" href="#/components/UserInfo.vue" >Rubik Agamiryan</a>
+                    <a class="nav-item" href="#/User" >Rubik Agamiryan</a>
                    
                 </div>
 

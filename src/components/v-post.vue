@@ -47,10 +47,10 @@ export default {
         {
           id: 1,
           author: "Иван Устинов",
-          avatar: "https://via.placeholder.com/50",
+          avatar: "https://get.wallhere.com/photo/face-model-portrait-photography-actor-profile-hair-nose-Person-Colton-Haynes-head-man-male-hairstyle-portrait-photography-photo-shoot-close-up-facial-hair-561682.jpg",
           timestamp: "2 часа назад",
           content: "Сегодня была прекрасная погода",
-          image: "https://via.placeholder.com/800x400",
+          image: "https://оценика.рф/sites/default/files/works/konkurs/whatsappimage2021-10-18at125120.jpg",
           likes: 10,
           liked: false,
           comments: [
@@ -65,9 +65,9 @@ export default {
         {
           id: 2,
           author: "Тимофей Сенин",
-          avatar: "https://via.placeholder.com/50",
+          avatar: "https://thumbs.dreamstime.com/b/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B5%D1%81%D1%82%D0%BE%D0%B7%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8F-%D1%81%D0%B5%D1%80%D1%8B%D0%B9-%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82-%D0%BD%D0%B5%D1%82-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8-173998002.jpg",
           timestamp: "4 часа назад",
-          content: "Вот бы там побывать.",
+          content: "Всем привет )",
           image: null,
           likes: 5,
           liked: false,
