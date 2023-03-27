@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style>
-/* Style the container with a rounded border, grey background and some padding and margin */
 .container-review {
     border: 2px solid #ccc;
     background-color: #eee;
@@ -55,27 +54,23 @@ export default {
     margin: 16px 0;
 }
 
-/* Clear floats after containers */
 .container::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
 .container-review img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
 }
 
-/* Increase the font-size of a span element */
 .container-review span {
     font-size: 20px;
     margin-right: 15px;
 }
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
   .container-review {
     text-align: center;
